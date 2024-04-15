@@ -1,4 +1,4 @@
 print("hello world")
 print("second line")
-a = 5
+a = 66
 print(a)
