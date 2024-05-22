@@ -4,6 +4,7 @@ a = 66
 print(a)
 
 item = 'JEYLAN'
+name = 'jee'
 Item = 'teesi'
 print(item, Item)
 
