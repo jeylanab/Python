@@ -12,6 +12,8 @@ num = 5
 sex = 'male'
 isHappy = True
 listItem = ['good', 'bad', 'ugly', 55 ]
+for name in listItem:
+  print(name)
 
 print(num)
 print(sex)
@@ -24,3 +26,17 @@ if isAdult:
   print('you are not old enough')
 else:
   print('i am jeylan')
+
+
+# for loop
+
+# for i in range(5):
+#   print("hello " , i+1)  
+
+
+
+# function in python
+def my_function():
+   print('this is my firts function in python')
+
+my_function()
