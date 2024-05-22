@@ -41,3 +41,8 @@ def my_function():
    print('this is my firts function in python')
 
 my_function()
+
+import numpy as np
+
+array = np.array([1, 2, 3, 4, 5])
+print(array)
