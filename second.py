@@ -1,16 +1,16 @@
 import numpy as np 
-# nd array created from list
-arr1 = np.array([1, 2, 3, 4, 5])
+# # nd array created from list
+# arr1 = np.array([1, 2, 3, 4, 5])
 
-# nd array created from list
-arr2 = np.array([2,5,3,6,7])
+# # nd array created from list
+# arr2 = np.array([2,5,3,6,7])
 
-print (arr1 + arr2)
-print('this is my second file')
-course = 'python'
-print(len(course))
+# print (arr1 + arr2)
+# print('this is my second file')
+# course = 'python'
+# print(len(course))
 
-# some built in functions of the numpy array
+# # some built in functions of the numpy array
 
 arr3 = np.zeros((2,6))
 arr4 = np.ones((4,2))
@@ -21,3 +21,13 @@ print(arr4)
 print(arr5)
 print(arange)
 
+
+# my own personla nd array
+
+array1 = np.array([[1,2,3,4,5],[3,4,2,2,5]])
+print(array1)
+# attributes of the nd array
+print(array1.shape)
+print(array1.dtype)
+print(array1.size)
+print(array1.ndim)
